@@ -14,7 +14,7 @@ body{
 }
 
 #topo{
-    height: 250px;
+    height: 120px;
     background: url(../img/detalhe-topo.png) no-repeat right top;
     padding: 30px 50px;
 }
@@ -68,4 +68,107 @@ body.fotos #navegacao a#fotos
     color: #fff;
     background: #de003e;
     cursor: text;
+}
+
+#conteudo{
+    margin-top: 60px;
+}
+
+
+#lateral{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+#primario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#duas-colunas #primario {
+    width: 555px;
+}
+
+#uma-coluna #primario{
+    width: 750px;
+    margin: 0 0 20px 0;;    
+}
+
+#secundario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+#container-rodape{
+    background: #294c71;
+    padding: 20px;
+}
+
+#rodape{
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.caixa{
+    margin: 10px 0;
+    background: #f3f3f3 url(/assets/img/fundo-caixa.png);
+    padding: 5px 0 5px 0;
+}
+
+h2 {
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+.caixa-conteudo{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    background: #fff;
+}
+
+#lateral ul a {
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+    line-height: 30px;
+    display: block;
+    padding: 3px;
+}
+
+#lateral ul a:hover {
+    color: #a1a1a1;
+    background: #f9f9f9 url(../img/marcador.png) no-repeat left center;
+    padding-left: 20px;
+}
+
+label{
+    display: block;
+    cursor: pointer;
+    font-size: .9em;
+    font-weight: bold;
+    color: blue;
+}
+
+input{
+    padding: 2px;
+    width: 125px;
+    font-size: 1.1em;
+    background-color: #fff;
+}
+
+input.submit{
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    padding: 5px;
+    margin-top: 2px;
 }
